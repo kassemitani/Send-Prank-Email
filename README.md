@@ -4,11 +4,11 @@ Send Prank Emails using PHP mail function
 ##Definition and Usage
 The mail() function allows you to send emails directly from a script.
 
-##Syntax
+## Syntax
 ```
 mail(to,subject,message,headers,parameters);
 ```
-###Parameter	Description
+### Parameter	Description
 to	Required. Specifies the receiver / receivers of the email
 subject	Required. Specifies the subject of the email. Note: This parameter cannot contain any newline characters
 message	Required. Defines the message to be sent. Each line should be separated with a LF (\n). Lines should not exceed 70 characters.
@@ -31,4 +31,5 @@ PHP 4.0.5: The parameter parameter was added
 
 ## References 
 PHP send mail: http://php.net/manual/en/function.mail.php
+
 W3Schools PHP function mail: https://www.w3schools.com/php/func_mail_mail.asp
