@@ -30,6 +30,7 @@ $isSent = true;
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="http://tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script type="text/javascript">
 tinymce.init({
     selector: "textarea"
@@ -65,6 +66,9 @@ tinymce.init({
                       <div class="uk-form-row">
                       <textarea class="uk-width-1-1 uk-form-large" type="text" placeholder="Message" name="message" ></textarea>
                     </div>
+                    <div class="uk-form-row">
+                      <div class="g-recaptcha" data-sitekey="Your-Site-Key-ReCaptcha"></div>
+                  </div>
                     <div class="uk-form-row">
                         <button type="submit" class="uk-width-1-1 uk-button uk-button-primary uk-button-large" >Send!</button>
                     </div>
