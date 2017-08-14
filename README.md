@@ -33,3 +33,8 @@ PHP 4.0.5: The parameter parameter was added
 PHP send mail: http://php.net/manual/en/function.mail.php
 
 W3Schools PHP function mail: https://www.w3schools.com/php/func_mail_mail.asp
+
+
+## ReCaptcha
+Get your site key from https://www.google.com/recaptcha/admin
+replace "Your-Site-Key-ReCaptcha" in Index.php line 70 with your site key
