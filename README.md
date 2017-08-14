@@ -1,8 +1,11 @@
 # Send-Prank-Email
 Send Prank Emails using PHP mail function 
 
-##Definition and Usage
+## Definition and Usage
 The mail() function allows you to send emails directly from a script.
+
+
+![ScreenShot](https://raw.github.com/kassemitani/Send-Prank-Email/master/screenshot.png)
 
 ## Syntax
 ```
